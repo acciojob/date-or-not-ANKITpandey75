@@ -1,4 +1,6 @@
 var isDate = function (input) {
+	const date = new Date(input);
+  return !isNaN(date.getTime());
   //   write your code here
 };
 
